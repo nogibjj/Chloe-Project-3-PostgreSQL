@@ -2,6 +2,10 @@
 
 For project 3, I used Azure Database for PostgreSQL with Postgis extension performed a cyclability score analysis in Greater Sydney Area. The cyclability score measures whether an area is cycling friendly based on population, dwelling density, business balance, bikepods density and station diversity. This project mainly used jupyter notebook to do analysis but stored all data into relational database in Azure. If you are interested in all the technical details of this project, feel free to read all the text below.
 
+![Azure Database for PostgreSQL](1667870509579.jpg)
+![Azure Database for PostgreSQL](1667870404255.jpg)
+![Relational Database Schema](1667868978179.jpg)
+
 ## 1.1 Dataset Description
 ### 1.1.1 Source of CSV files
 The main source of all the given CSV files with Statistical Area 2 (SA2) data is from the Australian Bureau of Statistics (ABS). Statistical Area 2 keeps track of the information about communities’ social and economic interactions. BusinessStat.csv grouped business counts by industry in Greater Sydney. Neighbourhoods.csv and CensusStats.csv are retrieved from census data of Greater Sydney. Bikesharingpods.csv is given from Canvas.
